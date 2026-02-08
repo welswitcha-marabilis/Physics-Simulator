@@ -1,0 +1,22 @@
+{
+    "styles": {
+        "size": "40px",
+        "marginTop": "10px",
+        "borderRadius": "5px",
+        "backgroundColor": "#0f0f0f",
+        "border": "1px solid #050505",
+        "active": {
+            "border": "4px solid #ffa300",
+            "boxShadow": "inset 0 0 0 10px #050505"
+        }
+    },
+    "circle": {
+        "proportionalSize": 0.7,
+        "backgroundColor": "black",
+        "borderRadius": "50%"
+    },
+    "box": {
+        "proportionalSize": 0.7,
+        "backgroundColor": "black"
+    }
+} 
