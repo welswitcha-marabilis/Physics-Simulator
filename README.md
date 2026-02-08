@@ -1,4 +1,3 @@
----
 # Physics Simulator
 My goals for this repo:
 - create balls, boxes, triangles, and star shapes that have physics
