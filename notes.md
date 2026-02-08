@@ -3,16 +3,15 @@ NOTES:
 # stop point 2/6/11pm-ish
 line 27, typeofshape-buttons.js, working on Button class, want to finish constructor
 
-# --- TYPEOFSHAPE-BUTTONS.JS ---
-- need to finish constructor for Button class in typeofshape-button.js:
-checklist:
-- use a switch to case through the types
-- make sure it can dynamically support most things ill need
+# stop point 2/7/5:23 PM
+finished typeofshape-buttons.js
+want to IMPROVE typeofshape-buttons.js
 
-- need to create function "createShapeButton()" in typeofshape-buttons.js
+# --- TYPEOFSHAPE-BUTTONS.JS ---
+- need to improve code maintanability
 checklist:
-- buttonTypes.ForEach() used to optimize code
-- it gotta work
+- must learn everything in the list in the # other section
+- use that knowledge to improve the code
 
 
 # --- OTHER ---

@@ -1,3 +1,4 @@
+---
 # Physics Simulator
 My goals for this repo:
 - create balls, boxes, triangles, and star shapes that have physics
@@ -6,5 +7,3 @@ My goals for this repo:
 - learn backend/frontend progamming and other usefull concepts while making it
 - have fun
 ---
-# NOTE:
-Please do not monetize or commercialize the final product without my consent.

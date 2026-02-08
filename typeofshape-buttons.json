@@ -1,22 +1,22 @@
 {
-    "styles": {
-        "size": "40px",
-        "marginTop": "10px",
-        "borderRadius": "5px",
-        "backgroundColor": "#0f0f0f",
-        "border": "1px solid #050505",
-        "active": {
-            "border": "4px solid #ffa300",
-            "boxShadow": "inset 0 0 0 10px #050505"
-        }
+    "size": "60px",
+    "marginTop": "10px",
+    "borderRadius": "5px",
+    "backgroundColor": "#e0e0e0",
+    "border": "3px solid #a4a4a4",
+    "active": {
+        "border": "3.05px solid #ffa300",
+        "boxShadow": "inset 0 0 10px rgba(180, 110, 40, 0.2)"
     },
     "circle": {
-        "proportionalSize": 0.7,
+        "proportionalSize": 0.5,
         "backgroundColor": "black",
-        "borderRadius": "50%"
+        "borderRadius": "50%",
+        "border": "3px solid #343434"
     },
     "box": {
-        "proportionalSize": 0.7,
-        "backgroundColor": "black"
+        "proportionalSize": 0.5,
+        "backgroundColor": "black",
+        "border": "3px solid #343434"
     }
 } 
