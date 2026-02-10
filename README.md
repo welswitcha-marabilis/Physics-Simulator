@@ -6,5 +6,5 @@ My goals for this repo:
 - learn backend/frontend progamming and other usefull concepts while making it
 - have fun
 ---
-# NOTE:
+### NOTE:
 currently learning SQL and backend C#, progress is currently haulted
