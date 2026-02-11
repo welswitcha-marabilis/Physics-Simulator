@@ -1,0 +1,78 @@
+/* Right UI Styles */
+.right-UI {
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    width: 270px;
+    height: 100%;
+}
+
+.shape-properties {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+    width: 100%;
+    height: 400px;
+}
+
+#input-slider {
+    flex: 0.5fr;
+    margin-left: 5px;
+}
+
+input[type="range"] {
+    /* styling for range inputs */
+    -webkit-appearance: none;
+    -moz-appearence: none;
+    appearence: none;
+}
+
+/* placeholder, color wheel not implemented (yet) */
+.color-wheel {
+    width: 170px;
+    height: 170px;
+    border-radius: 6.9px;
+    background-color: #e0e0e0;
+    border: 3px solid #ccc;
+    margin: 40px;
+}
+
+.right-UI-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: Roboto, arial;
+    margin: 0;
+    border: 2px solid #eee;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.property-container {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    width: 100%;
+    padding-left: 5px;
+    border: 1px solid #eee;
+}
+
+.property-label {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Roboto, arial;
+    margin: 0;
+    color: #333;
+    margin-left: 10px;
+}

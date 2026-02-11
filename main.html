@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="left-UI.css">
+    <link rel="stylesheet" href="right-UI.css">
     <title>Physics Simulator</title>
 </head>
 <body style = "height: 6767px">
@@ -19,5 +23,43 @@
 
     <script src="typeofshape-buttons.js"></script>
     <script src="pause-button.js"></script>
+
+    <div class = "right-UI">
+        <div class = "right-UI-title">
+            Physics Simulator
+        </div>
+        <div class = "right-UI-top-container">
+            <!-- difficult to implement, will add toward the end of the project -->
+            <div class = "color-wheel">
+                <!-- this is a placeholder for the color wheel -->
+                 <!-- I will add the javascript for a color wheel later -->
+            </div>
+            <div>
+                <div class = "shape-properties">
+                    <div class = "property-container">
+                        <input type = "range" class = "shape-size" id = "input-slider" min = "10" max = "100" value = "50" step = "0.01">
+                        <p class = "proprty-info"><span class = "property-label">Size: </span><span class = "property-value" id = "size-value">50</span></p>
+                    </div>
+                    <div class = "property-container">
+                        <input type = "range" class = "shape-mass" id = "input-slider" min = "1" max = "100" value = "50" step = "0.01">
+                        <p class = "proprty-info"><span class = "property-label">Mass: </span><span class = "property-value" id = "mass-value">50</span></p>
+                    </div>
+                    <div class = "property-container">
+                        <input type = "range" class = "shape-friction" id = "input-slider" min = "0" max = "1" value = "0.5" step = "0.01">
+                        <p class = "proprty-info"><span class = "property-label">Friction: </span><span class = "property-value" id = "friction-value">0.5</span></p>
+                    </div>
+                    <div class = "property-container">
+                        <input type = "range" class = "shape-restitution" id = "input-slider" min = "0" max = "1" value = "0.5" step = "0.01">
+                        <!-- for an average user, "restitution" is not a commonly known term, so we use "Bounciness" instead -->
+                        <p class = "proprty-info"><span class = "property-label">Bounciness: </span><span class = "property-value" id = "restitution-value">0.5</span></p>
+                    </div>
+                </div>
+                <!-- difficult to implement, will add toward the end of the project -->
+                <div class = "shape-preview">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
