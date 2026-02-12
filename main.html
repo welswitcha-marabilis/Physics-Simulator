@@ -21,10 +21,10 @@
         </div>
     </div>
 
-    <script src="typeofshape-buttons.js"></script>
-    <script src="pause-button.js"></script>
-
     <div class = "right-UI">
+        <div class = "right-UI-drawer-toggle">
+            ▶
+        </div>
         <div class = "right-UI-title">
             Physics Simulator
         </div>
@@ -37,21 +37,33 @@
             <div>
                 <div class = "shape-properties">
                     <div class = "property-container">
-                        <input type = "range" class = "shape-size" id = "input-slider" min = "10" max = "100" value = "50" step = "0.01">
-                        <p class = "proprty-info"><span class = "property-label">Size: </span><span class = "property-value" id = "size-value">50</span></p>
+                        <input type = "range" class = "input-slider" id = "size" min = "10" max = "100" value = "50" step = "0.01">
+                        <span class = "property-label">Size: </span>
+                        <div class = "text-input-container">
+                            <input type="text" class = "property-value" id = "size-value" value="50">
+                        </div>
                     </div>
                     <div class = "property-container">
-                        <input type = "range" class = "shape-mass" id = "input-slider" min = "1" max = "100" value = "50" step = "0.01">
-                        <p class = "proprty-info"><span class = "property-label">Mass: </span><span class = "property-value" id = "mass-value">50</span></p>
+                        <input type = "range" class = "input-slider" id = "mass" min = "1" max = "100" value = "50" step = "0.01">
+                        <p class = "property-label">Mass: </p>
+                        <div class = "text-input-container">
+                            <input type="text" class = "property-value" id = "mass-value" value="50">
+                        </div>
                     </div>
                     <div class = "property-container">
-                        <input type = "range" class = "shape-friction" id = "input-slider" min = "0" max = "1" value = "0.5" step = "0.01">
-                        <p class = "proprty-info"><span class = "property-label">Friction: </span><span class = "property-value" id = "friction-value">0.5</span></p>
+                        <input type = "range" class = "input-slider" id = "friction" min = "0" max = "1" value = "0.5" step = "0.01">
+                        <p class = "property-label">Friction: </p>
+                        <div class = "text-input-container">
+                            <input type="text" class = "property-value" id = "friction-value" value="0.5">
+                        </div>
                     </div>
                     <div class = "property-container">
-                        <input type = "range" class = "shape-restitution" id = "input-slider" min = "0" max = "1" value = "0.5" step = "0.01">
+                        <input type = "range" class = "input-slider" id = "restitution" min = "0" max = "1" value = "0.5" step = "0.01">
                         <!-- for an average user, "restitution" is not a commonly known term, so we use "Bounciness" instead -->
-                        <p class = "proprty-info"><span class = "property-label">Bounciness: </span><span class = "property-value" id = "restitution-value">0.5</span></p>
+                        <p class = "property-label">Bounciness: </p>
+                        <div class = "text-input-container">
+                            <input type="text" class = "property-value" id = "restitution-value" value="0.5">
+                        </div>
                     </div>
                 </div>
                 <!-- difficult to implement, will add toward the end of the project -->
@@ -61,5 +73,10 @@
             </div>
         </div>
     </div>
+
+    <script src="typeofshape-buttons.js"></script>
+    <script src="pause-button.js"></script>
+    <script src="shape-properties.js"></script>
+    <script src = "drawer-toggles.js"></script>
 </body>
 </html>
